@@ -14,7 +14,7 @@ section {
 }
 
 .header-home {
-  background-image: url(img/cover.jpeg);
+  background-image: url(/img/cover.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
