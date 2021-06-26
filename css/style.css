@@ -270,6 +270,61 @@ footer .fab:hover {
 }
 
 /* contact form */
+.contact-page-body {
+  background: #e8eae6;
+}
+
 .contact-header {
   background: #3b3f47;
+}
+
+.contact .contact-body .contact-info {
+  padding: 2em;
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ff9205 80%);
+  border-radius: 10px;
+  width: 80%;
+}
+
+.contact .contact-body .contact-info-title h6 {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.contact .contact-body .contact-info-title p {
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+.contact .contact-body .contact-info-body {
+  padding: 0.8em 0;
+  font-weight: 300;
+}
+
+.contact .contact-body .contact-info-body .fa {
+  padding-bottom: 0.4em;
+  font-size: 1.2em;
+}
+
+.contact .contact-body .contact-form-body {
+  background: #f1f2f6;
+  border-radius: 10px;
+}
+
+.contact .contact-body .contact-form form .btn {
+  background: #ff4e00;
+  color: #f1f2f6;
+  border: none;
+  font-weight: 500;
+  padding: 0.4em 1.5em;
+  font-size: inherit;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: all 1s ease;
+  transform: scale(1);
+  letter-spacing: 1px;
+}
+
+.contact .contact-body .contact-form form .btn:hover {
+  transform: scale(1.1) perspective(2px);
 }
