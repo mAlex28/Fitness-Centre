@@ -269,7 +269,21 @@ footer .fab:hover {
   }
 }
 
-/* contact form */
+/* about page */
+.about-page-body {
+  background: #e8eae6;
+}
+
+.about-header {
+  background-color: #bdd4e7;
+  background-image: linear-gradient(315deg, #b5cadb 0%, #8693ab 74%);
+}
+
+.about-header-body {
+  width: 50%;
+}
+
+/* contact page */
 .contact-page-body {
   background: #e8eae6;
 }
