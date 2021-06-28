@@ -132,7 +132,7 @@ header .hero .btn:hover {
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
-/* services - section */
+/* services-section */
 
 .services-section .services-heading {
   position: relative !important;
@@ -392,6 +392,84 @@ figure.effect-zoe img {
 }
 
 /* services page */
+.services-page-body {
+  background: #e8eae6;
+}
+
+.services-main-area {
+  padding: 5%;
+}
+
+.services-header {
+  background: #3b3f47;
+}
+
+.services-page .services-img {
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.services-page .services-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.services-page .services-heading h2 {
+  color: black;
+  font-weight: 700;
+  font-size: 2em;
+  letter-spacing: 0.5px;
+}
+
+.services-page .services-heading p {
+  color: black;
+  font-weight: 400;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+}
+
+.services-page-body .service-items {
+  margin-bottom: 30px;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.service-items .container .row h6 {
+  font-size: 1.5em;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: inherit;
+  font-weight: 600;
+}
+
+.service-items .container .row p {
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 760px) {
+  .services-page .services-img {
+    display: none;
+  }
+
+  .services-page-body .service-items {
+    display: flex;
+    display: -webkit-flex;
+  }
+
+  .service-items > .service-item-descp {
+    order: 1;
+    -webkit-order: 1;
+  }
+
+  .service-items > .service-item-img {
+    order: 2;
+    -webkit-order: 2;
+  }
+}
 
 /* contact page */
 .contact-page-body {
